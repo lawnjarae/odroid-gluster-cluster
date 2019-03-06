@@ -72,7 +72,7 @@ Find "PermitRootLogin" and change it to "no":
 `$ sudo service sshd restart`
 
 ## Formatting the Hard Drives
-It is recommended to use XFS in a Gluster cluster.
+While Gluster works with any filesystem that supports extended attributes, it is recommended that you use XFS for bricks.
 
 Install `xfsprogs`:
 `$ sudo apt-get install xfsprogs`
