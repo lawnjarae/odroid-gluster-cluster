@@ -65,10 +65,10 @@ Example:
     192.168.1.13	xu4
 
 ## Disabling Root SSH Access
-Edit the `sshd_config`:
+Edit the `sshd_config`. Find "PermitRootLogin" and change it to "no":
 `$ sudo vi /etc/ssh/sshd_config`  
 
-Find "PermitRootLogin" and change it to "no":
+Restart `sshd`:
 `$ sudo service sshd restart`
 
 ## Formatting the Hard Drives
