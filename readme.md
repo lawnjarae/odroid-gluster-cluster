@@ -1,4 +1,4 @@
-# Odroid XU4/HC2 Gluster NAS Setup
+# ODROID-XU4/HC2 Gluster NAS Setup
 
 This document contains information on configuring a Gluster cluster using Odroid's HC2 and XU4 single board computers.
 In my case, the cluster contains three HC2's configured as a Gluster cluster and one XU4 as the main SMB share point.
@@ -8,16 +8,16 @@ The OS of choice was Ubuntu MATE (though I've been told Ubuntu minimal would als
 For the purposes of this article the single user across every device will be `odroid`.
 
 ## Hardware
-- Three Odroid HC2's
+- Three ODROID-HC2's
     - Hostnames are `odroid-brick1`, `odroid-brick2`, and `odroid-brick3`
-- One Odroid XU4
+- One ODROID-XU4
 - OS - Ubuntu MATE (18.04?)
 - 32GB SD cards
 - Three 6TB hard drives
 
 ## Basic Setup
 These commands should be run on every HC2 and XU4 in your architecture.
-Most of this information was pulled from the [Odroid Wiki](https://wiki.odroid.com/odroid-xu4/software/ubuntu_nas/01_basic_settings).
+Most of this information was pulled from the [ODROID-Wiki](https://wiki.odroid.com/odroid-xu4/software/ubuntu_nas/01_basic_settings).
 
 Several of these wizards will prompt you to select a locale.
 Select **en_US.UTF-8** for all of the steps.
