@@ -25,7 +25,7 @@ For the purposes of this article the single user across every device will be `od
 - Three ODROID-HC2's
     - Hostnames are `odroid-brick1`, `odroid-brick2`, and `odroid-brick3`
 - One ODROID-XU4
-- OS - Ubuntu MATE (18.04?)
+- OS - Ubuntu MATE (18.04)
 - 32GB SD cards
 - Three 6TB hard drives
 
