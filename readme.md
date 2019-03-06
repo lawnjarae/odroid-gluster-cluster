@@ -7,6 +7,20 @@ The OS of choice was Ubuntu MATE (though I've been told Ubuntu minimal would als
 
 For the purposes of this article the single user across every device will be `odroid`.
 
+
+* [Hardware](#hardware)
+* [Basic Setup](#basic-setup)
+* [Update the `hosts` File](#update-the-hosts-file)
+* [Disabling Root SSH Access](#disabling-root-ssh-access)
+* [Formatting the Hard Drives](#formatting-the-hard-drives)
+* [Setting up the Gluster Cluster](#setting-up-the-gluster-cluster)
+  + [Install the Gluster Repository and Gluster Packages](#install-the-gluster-repository-and-gluster-packages)
+  + [Create the Gluster Volume](#create-the-gluster-volume)
+    + [Mount the Gluster Volume](#mount-the-gluster-volume)
+* [Installing and Configuring Samba](#installing-and-configuring-samba)
+  + [Edit the `/etc/samba/smb.conf` file](#edit-the-etcsambasmbconf-file)
+  + [Make SMB Share Discoverable](#make-smb-share-discoverable)
+
 ## Hardware
 - Three ODROID-HC2's
     - Hostnames are `odroid-brick1`, `odroid-brick2`, and `odroid-brick3`
